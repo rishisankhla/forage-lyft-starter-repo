@@ -136,6 +136,7 @@ class TestRorschach(unittest.TestCase):
         current_mileage = 60001
         last_service_mileage = 0
 
+
         car = Rorschach(last_service_date, current_mileage, last_service_mileage)
         self.assertTrue(car.needs_service())
 
